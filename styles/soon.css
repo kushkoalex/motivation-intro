@@ -1,0 +1,46 @@
+.footer{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    padding-top: 20px;
+    /*height: 80px;*/
+    padding-bottom: 62px;
+    color: #000000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.footer a{
+    color: #0072bc;
+}
+.footer .em,
+.footer .mbs{
+    display: inline-block;
+    height: 40px;
+    vertical-align: top;
+
+}
+.footer .em{
+    width: 200px;
+    text-align: left;
+    margin-right: 14px;
+    padding-left: 20px;
+}
+
+.footer .mbs{
+    width: 50px;
+    background: url("../images/mbs-logo.svg") no-repeat right;
+    margin-left: 50px;
+}
+
+.oleg{
+    position: absolute;
+    background: url("../images/oleg.png");
+    width: 278px;
+    height: 524px;
+    top: 50%;
+    margin-top: -310px;
+    left: 50%;
+    margin-left: -139px;
+}
