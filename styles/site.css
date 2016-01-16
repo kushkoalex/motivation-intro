@@ -109,10 +109,12 @@
     position: absolute;
     top: 178px;
     left: 110px;
-    right: 70px;
+    right: 110px;
     bottom: 110px;
     overflow-y: auto;
-    text-align: right;
+    text-align: left;
+    font-size: 13px;
+    color: #3c3c3c;
 }
 
 .title{
@@ -140,3 +142,22 @@
 .panel{
     display: none;
 }
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 3px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    height: 10px;
+
+}
+
+/*::-webkit-scrollbar              { width: 13px }*/
