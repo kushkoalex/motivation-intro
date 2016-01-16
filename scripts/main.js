@@ -7,9 +7,28 @@ $(function () {
     var animationHideTime = 500;
 
     var setButtonHref = function () {
-        $(".conditions").attr("href", "http://oleg-yan.com");
-        $(".order").attr("href", "http://oleg-yan.com");
-        $(".guarantee").attr("href", "http://oleg-yan.com");
+        //$(".conditions").attr("href", "http://oleg-yan.com");
+        //$(".order").attr("href", "http://oleg-yan.com");
+        //$(".guarantee").attr("href", "http://oleg-yan.com");
+
+        $(".conditions").css("cursor","pointer");
+        $(".order").css("cursor","pointer");
+        $(".guarantee").css("cursor","pointer");
+
+        $(".conditions").on('click',function(){
+            $(".layout").css("display","block");
+            $(".conditions-panel").css("display","block");
+        });
+        $(".order").on('click',function(){
+            $(".layout").css("display","block");
+            $(".order-panel").css("display","block");
+        });
+        $(".guarantee").on('click',function(){
+            $(".layout").css("display","block");
+            $(".guarantee-panel").css("display","block");
+        });
+
+
         $(".who-is").attr("href", "http://oleg-yan.com");
     };
 
@@ -244,5 +263,18 @@ $(function () {
         $(this).parent().css("display", "none");
     });
 
+
+    $(".layout, .close").on('click',function(){
+        $(".layout").css("display","none");
+        $(".panel").css("display","none");
+    });
+
+    //$(".layout, .close").on('click',function(){
+    //    $(".layout").css("display","none");
+    //});
+
+    $(".panel").on('click',function(){
+        return false;
+    });
 
 });
