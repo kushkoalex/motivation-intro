@@ -99,13 +99,81 @@
 }
 
 .second {
-    background: url("../images/second.png");
+    /*background: url("../images/second.png");*/
     width: 410px;
     height: 421px;
     position: absolute;
     left: 50%;
     margin-left: -205px;
 }
+
+
+.motivation,
+.writing,
+.success,
+.competitions,
+.facts,
+.literature{
+    margin: 41px auto 0;
+}
+
+.communication{
+    background: url("../images/communication.png");
+    width: 173px;
+    height: 28px;
+    margin: 0 auto;
+}
+
+.motivation{
+    background: url("../images/motivation.png");
+    width: 219px;
+    height: 28px;
+}
+.writing{
+    background: url("../images/writing.png");
+    width: 373px;
+    height: 23px;
+}
+
+.success{
+    background: url("../images/success.png");
+    width: 308px;
+    height: 23px;
+}
+
+.competitions{
+    background: url("../images/competitions.png");
+    width: 347px;
+    height: 24px;
+}
+
+.facts{
+    background: url("../images/facts.png");
+    width: 353px;
+    height: 23px;
+}
+
+.literature{
+    background: url("../images/literature.png");
+    width: 410px;
+    height: 23px;
+}
+
+
+
+
+.messageBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    margin-left: -200px;
+    margin-top: -100px;
+    display: none;
+    font-size: 50px;
+}
+
+
 
 .third {
     background: url("../images/third.png");
